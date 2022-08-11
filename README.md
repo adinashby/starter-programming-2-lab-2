@@ -13,44 +13,44 @@ This template repository is the starter project for Programming 2 Lab 2. Written
 
 2. Write a Java program that accepts a positive integer number from the user and displays prime numbers until that number.
 
-(Reminder: Prime numbers are numbers that are only divisible by 1 and themselves)
+   (Reminder: Prime numbers are numbers that are only divisible by 1 and themselves)
 
-Example:
+   Example:
 
-    Enter a positive integer: `25`
-    Prime numbers are: `2 3 5 7 11 13 17 19 23`
+   Enter a positive integer: `25`
+   Prime numbers are: `2 3 5 7 11 13 17 19 23`
 
-3.  Write a Java program that return the following shape based on the number of rows as a string.
+3. Write a Java program that return the following shape based on the number of rows as a string.
 
-    Example:
+   Example:
 
-    Enter number of rows: `5`
+   Enter number of rows: `5`
 
-    `1`  
-    `2 3`  
-    `4 5 6`  
-    `7 8 9 10`  
-    `11 12 13 14 15`
+   `1`  
+   `2 3`  
+   `4 5 6`  
+   `7 8 9 10`  
+   `11 12 13 14 15`
 
-4.  Create an Account class that has the following properties.
+4. Create an Account class that has the following properties.
 
-    i) Three instance variables called accountNumber, name, and amount.
+   i) Three instance variables called accountNumber, name, and amount.
 
-    ii) One static variable called numberOfAccounts.
+   ii) One static variable called numberOfAccounts.
 
-    iii) A default constructor.
+   iii) A default constructor.
 
-    iv) A constructor that takes all the parameters (that are necessary) and initializes them v) Getters and setters (accessors and mutators).
+   iv) A constructor that takes all the parameters (that are necessary) and initializes them v) Getters and setters (accessors and mutators).
 
-    vi) deposit() method that takes a parameter and adds the value to the amount.
+   vi) deposit() method that takes a parameter and adds the value to the amount.
 
-    vii) withdraw() method that takes a parameter and reduces the value from the amount.
+   vii) withdraw() method that takes a parameter and reduces the value from the amount.
 
-    viii) calculateInterest() method that adds %2 interest to the amount.
+   viii) calculateInterest() method that adds %2 interest to the amount.
 
-    ix) toString() method to show the values inside the object.
+   ix) toString() method to show the values inside the object.
 
-    x) equals() method to compare if two instances of Account class are equal or not.
+   x) equals() method to compare if two instances of Account class are equal or not.
 
 ### Setup Command
 
