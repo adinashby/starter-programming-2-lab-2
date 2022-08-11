@@ -54,7 +54,7 @@ This template repository is the starter project for Programming 2 Lab 2. Written
 
 ### Setup Command
 
-N/A
+`gradle clean`
 
 ### Run Command
 
