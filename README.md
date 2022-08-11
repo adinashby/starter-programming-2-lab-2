@@ -17,7 +17,7 @@ This template repository is the starter project for Programming 2 Lab 2. Written
 
    Example:
 
-   Enter a positive integer: `25`
+   Enter a positive integer: `25`  
    Prime numbers are: `2 3 5 7 11 13 17 19 23`
 
 3. Write a Java program that return the following shape based on the number of rows as a string.
