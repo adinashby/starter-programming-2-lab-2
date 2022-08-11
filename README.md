@@ -1,41 +1,56 @@
-# Programming 2 - Lab 1
+# Programming 2 - Lab 2
 
-This template repository is the starter project for Programming 2 Lab 1. Written in Java, and tested with Gradle/JUnit.
+This template repository is the starter project for Programming 2 Lab 2. Written in Java, and tested with Gradle/JUnit.
 
 ### Questions
 
-1.  Write a Java method to concatenate a given string to the end of another string.
+1. Write an if-else statement to compute the amount of shipping due on an online sale. If the cost of the purchase is less than or equal to $20, the shipping cost is $5.99. If the cost of the purchase is over $20 and at most $65, the shipping cost is $10.99. If the cost of the purchase is over $65, the shipping cost is $15.99.
+
+   Example:
+
+   Please enter the cost of purchase: $`60`  
+   The shipping cost is: $`10.99`
+
+2. Write a Java program that accepts a positive integer number from the user and displays prime numbers until that number.
+
+(Reminder: Prime numbers are numbers that are only divisible by 1 and themselves)
+
+Example:
+
+    Enter a positive integer: `25`
+    Prime numbers are: `2 3 5 7 11 13 17 19 23`
+
+3.  Write a Java program that return the following shape based on the number of rows as a string.
 
     Example:
 
-    String 1: `Programming 2`  
-    String 2: `Winter 2022`  
-    The concatenated string: `Programming 2 Winter 2022`
+    Enter number of rows: `5`
 
-2.  Write a Java method to check whether a given string ends with the contents of another string.
+    `1`  
+    `2 3`  
+    `4 5 6`  
+    `7 8 9 10`  
+    `11 12 13 14 15`
 
-    Example:
+4.  Create an Account class that has the following properties.
 
-    `Java Lab` ends with `Ab`? `true`  
-    `Winter 2022` ends with `35`? `false`
+    i) Three instance variables called accountNumber, name, and amount.
 
-3.  Write a Java method to generate random integers in a specific range.
+    ii) One static variable called numberOfAccounts.
 
-    Example:
+    iii) A default constructor.
 
-    Input the starting number of the range: `5`  
-    Input the ending number of the range: `25`  
-    The randomly generated number is: `10`
+    iv) A constructor that takes all the parameters (that are necessary) and initializes them v) Getters and setters (accessors and mutators).
 
-4.  Write a Java method to check whether a password is valid or not. A valid password should contain an uppercase letter, lowercase letter, and digit. In addition, it should be at least 8 characters or more.
+    vi) deposit() method that takes a parameter and adds the value to the amount.
 
-    Example:
+    vii) withdraw() method that takes a parameter and reduces the value from the amount.
 
-    Please input a password: `Vanier1`  
-    The password is `invalid`!
+    viii) calculateInterest() method that adds %2 interest to the amount.
 
-    Please input a password: `Vanier1234`  
-    The password is `valid`!
+    ix) toString() method to show the values inside the object.
+
+    x) equals() method to compare if two instances of Account class are equal or not.
 
 ### Setup Command
 
