@@ -11,7 +11,7 @@ This template repository is the starter project for Programming 2 Lab 2. Written
    Please enter the cost of purchase: $`60`  
    The shipping cost is: $`10.99`
 
-2. Write a Java program that accepts a positive integer number from the user and displays prime numbers until that number.
+2. Write a Java program that displays prime numbers until the number given as the parameter. You can assume that the number is positive.
 
    (Reminder: Prime numbers are numbers that are only divisible by 1 and themselves)
 
